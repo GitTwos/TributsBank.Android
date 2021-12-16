@@ -1,0 +1,211 @@
+{
+  "format": 1,
+  "restore": {
+    "/Volumes/Backup/Projetos/TributsBank/App/AppSorriaBank.Android/AppSorriaBank.Android.csproj": {}
+  },
+  "projects": {
+    "/Volumes/Backup/Projetos/TributsBank/App/AppSorriaBank.Android/AppSorriaBank.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/Backup/Projetos/TributsBank/App/AppSorriaBank.Android/AppSorriaBank.Android.csproj",
+        "projectName": "AppSorriaBank.Android",
+        "projectPath": "/Volumes/Backup/Projetos/TributsBank/App/AppSorriaBank.Android/AppSorriaBank.Android.csproj",
+        "packagesPath": "/Users/andregraciano/.nuget/packages/",
+        "outputPath": "/Volumes/Backup/Projetos/TributsBank/App/AppSorriaBank.Android/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/andregraciano/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid10.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid10.0": {
+            "projectReferences": {
+              "/Volumes/Backup/Projetos/TributsBank/App/AppSorriaBank/AppSorriaBank.csproj": {
+                "projectPath": "/Volumes/Backup/Projetos/TributsBank/App/AppSorriaBank/AppSorriaBank.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid10.0": {
+          "dependencies": {
+            "FreshMvvm": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Matcha.BackgroundService": {
+              "target": "Package",
+              "version": "[1.0.5478, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.12.0, )"
+            },
+            "System.Reactive.Core": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Reactive.Linq": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Xam.Plugins.Forms.ImageCircle": {
+              "target": "Package",
+              "version": "[3.0.0.5, )"
+            },
+            "Xamarin.CommunityToolkit": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2083, )"
+            },
+            "Xamarin.Forms.BehaviorValidationPack": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "ZXing.Net.Mobile": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "ZXing.Net.Mobile.Forms": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
+            }
+          }
+        }
+      }
+    },
+    "/Volumes/Backup/Projetos/TributsBank/App/AppSorriaBank/AppSorriaBank.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/Backup/Projetos/TributsBank/App/AppSorriaBank/AppSorriaBank.csproj",
+        "projectName": "AppSorriaBank",
+        "projectPath": "/Volumes/Backup/Projetos/TributsBank/App/AppSorriaBank/AppSorriaBank.csproj",
+        "packagesPath": "/Users/andregraciano/.nuget/packages/",
+        "outputPath": "/Volumes/Backup/Projetos/TributsBank/App/AppSorriaBank/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/andregraciano/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "FreshMvvm": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Matcha.BackgroundService": {
+              "target": "Package",
+              "version": "[1.0.5478, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.12.0, )"
+            },
+            "System.Reactive.Core": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Reactive.Linq": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Xam.Plugins.Forms.ImageCircle": {
+              "target": "Package",
+              "version": "[3.0.0.5, )"
+            },
+            "Xamarin.CommunityToolkit": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2083, )"
+            },
+            "Xamarin.Forms.BehaviorValidationPack": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "ZXing.Net.Mobile": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "ZXing.Net.Mobile.Forms": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
